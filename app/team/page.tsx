@@ -1,10 +1,7 @@
 import PersonalCard from '@/components/PersonalCard'
 
-interface ITeamProps {
-  teamId: string
-}
 
-export default function Team(props: ITeamProps) {
+export default function Team() {
   const team: IPersonalCardProps[] = [
     {
       avatarSrc: '/img/feng.jpg',
